@@ -1,4 +1,4 @@
-package io.github.msgehard.taskManager.web;
+package io.github.msgehard.taskManager;
 
 import org.springframework.boot.*;
 import org.springframework.boot.autoconfigure.*;
