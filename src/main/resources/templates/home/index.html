@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html>
 <body>
-<p th:text="${welcome}">Hello from template!</p>
+<header th:replace="fragments/header :: header">
+    &nbsp;
+</header>
+<main>
+    <h1 th:text="${welcome}">&nbsp;</h1>
+</main>
+<footer th:replace="fragments/footer :: footer">
+    &nbsp;
+</footer>
 </body>
 </html>
