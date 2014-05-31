@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
+<head th:include="layout :: head">
+</head>
 <body>
-<header th:replace="fragments/header :: header">
+<header th:replace="layout :: header">
     &nbsp;
 </header>
 <main>
     <h1 th:text="${welcome}">&nbsp;</h1>
 </main>
-<footer th:replace="fragments/footer :: footer">
+<footer th:replace="layout :: footer">
     &nbsp;
 </footer>
 </body>
