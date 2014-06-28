@@ -23,7 +23,7 @@ repositories {
 }
 
 dependencies {
-    compile("org.springframework.boot:spring-boot-starter-thymeleaf") {
+    compile("org.springframework.boot:spring-boot-starter-groovy-templates") {
         exclude module: "spring-boot-starter-tomcat"
     }
     compile("org.springframework.boot:spring-boot-starter-jetty")

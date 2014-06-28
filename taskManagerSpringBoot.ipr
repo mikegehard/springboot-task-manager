@@ -23,6 +23,9 @@
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$" />
   </component>
@@ -365,67 +368,67 @@
       <JAVADOC />
       <SOURCES />
     </library>
-    <library name="Gradle: spring-boot-1.1.2.RELEASE">
+    <library name="Gradle: spring-boot-1.1.3.RELEASE">
       <CLASSES>
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.1.2.RELEASE/8d2b91e3ad7c0607b8900fd24e01891778ad9c94/spring-boot-1.1.2.RELEASE.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.1.3.RELEASE/fab9a7ae9dbe7321a3e28c9882d6dda5caff883/spring-boot-1.1.3.RELEASE.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.1.2.RELEASE/5559415292ffde027d03fe5c7cc3b265d1537bad/spring-boot-1.1.2.RELEASE-sources.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.1.3.RELEASE/68baa2fe7d83ef3da4f66123718bf6547c1f4807/spring-boot-1.1.3.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Gradle: spring-boot-autoconfigure-1.1.2.RELEASE">
+    <library name="Gradle: spring-boot-autoconfigure-1.1.3.RELEASE">
       <CLASSES>
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.1.2.RELEASE/c8b8eac3045e263938bef05a06f07fd5ac6e8775/spring-boot-autoconfigure-1.1.2.RELEASE.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.1.3.RELEASE/79f68aee72c7b38a5a4c9a4f9047bcee6f39f9db/spring-boot-autoconfigure-1.1.3.RELEASE.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.1.2.RELEASE/3dacc02c2a509f26a5a7fb3fe5b7209497958e5/spring-boot-autoconfigure-1.1.2.RELEASE-sources.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.1.3.RELEASE/9dc7681988b92b271a0cfeccad18e027a663f47e/spring-boot-autoconfigure-1.1.3.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Gradle: spring-boot-starter-1.1.2.RELEASE">
+    <library name="Gradle: spring-boot-starter-1.1.3.RELEASE">
       <CLASSES>
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/1.1.2.RELEASE/bef319d0edf37c585121913d6f23ed80cd09b76/spring-boot-starter-1.1.2.RELEASE.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/1.1.3.RELEASE/e633fa52d5a3c2f664c460bd726e253724b62fe6/spring-boot-starter-1.1.3.RELEASE.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/1.1.2.RELEASE/1061c7db831999640685b4320383af00ac9984d3/spring-boot-starter-1.1.2.RELEASE-sources.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/1.1.3.RELEASE/5eb5e9de04a5ebd1e565c4c528b38c2788e8af5c/spring-boot-starter-1.1.3.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Gradle: spring-boot-starter-jetty-1.1.2.RELEASE">
+    <library name="Gradle: spring-boot-starter-jetty-1.1.3.RELEASE">
       <CLASSES>
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jetty/1.1.2.RELEASE/8a211663d95af37523075ffc5cb4f511f25fc930/spring-boot-starter-jetty-1.1.2.RELEASE.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jetty/1.1.3.RELEASE/d40855706199289651d82e09d2afbda518b2e310/spring-boot-starter-jetty-1.1.3.RELEASE.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jetty/1.1.2.RELEASE/4870c3a0ec53aea81a8dc0c55322d363c39c3e1f/spring-boot-starter-jetty-1.1.2.RELEASE-sources.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jetty/1.1.3.RELEASE/98c30111ef33080c2fc8a685926d1079cc15b045/spring-boot-starter-jetty-1.1.3.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Gradle: spring-boot-starter-logging-1.1.2.RELEASE">
+    <library name="Gradle: spring-boot-starter-logging-1.1.3.RELEASE">
       <CLASSES>
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.1.2.RELEASE/42ed372f83f564b33707067c234507e892460f3d/spring-boot-starter-logging-1.1.2.RELEASE.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.1.3.RELEASE/9f42f0ea9bb8f62bc5a06d6fcfa68db15bb93fa6/spring-boot-starter-logging-1.1.3.RELEASE.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.1.2.RELEASE/e480427a132ca6e774ce69b0748c73bfa9a592d5/spring-boot-starter-logging-1.1.2.RELEASE-sources.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.1.3.RELEASE/22afb381d3ce87ff6c3234017882436ab60bba0a/spring-boot-starter-logging-1.1.3.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Gradle: spring-boot-starter-thymeleaf-1.1.2.RELEASE">
+    <library name="Gradle: spring-boot-starter-thymeleaf-1.1.3.RELEASE">
       <CLASSES>
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-thymeleaf/1.1.2.RELEASE/5d1712cfd63f7389f597e633ca2d9e9c0c684ac/spring-boot-starter-thymeleaf-1.1.2.RELEASE.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-thymeleaf/1.1.3.RELEASE/4a496a372d55385d47963603d8fb0f9a9f5de157/spring-boot-starter-thymeleaf-1.1.3.RELEASE.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-thymeleaf/1.1.2.RELEASE/12a51a174af89c834e53606fe7a041014b8c8d11/spring-boot-starter-thymeleaf-1.1.2.RELEASE-sources.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-thymeleaf/1.1.3.RELEASE/6191e2d611d3d90de268432444ef4b87df769b75/spring-boot-starter-thymeleaf-1.1.3.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Gradle: spring-boot-starter-web-1.1.2.RELEASE">
+    <library name="Gradle: spring-boot-starter-web-1.1.3.RELEASE">
       <CLASSES>
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.1.2.RELEASE/9e6a3acb2747845909c94225cb866cf6d8a57e77/spring-boot-starter-web-1.1.2.RELEASE.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.1.3.RELEASE/46ad4c385d2fac91385cc9dc090da32d59ec16e5/spring-boot-starter-web-1.1.3.RELEASE.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.1.2.RELEASE/64411ae52e03a6d033aad67db51505ac115ad2e1/spring-boot-starter-web-1.1.2.RELEASE-sources.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.1.3.RELEASE/980f2776569f022d2b139d3ff9f0475405fc595c/spring-boot-starter-web-1.1.3.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Gradle: spring-context-4.0.5.RELEASE">
@@ -470,12 +473,14 @@
       <JAVADOC />
       <SOURCES />
     </library>
-    <library name="Gradle: thymeleaf-layout-dialect-1.2.4">
+    <library name="Gradle: thymeleaf-layout-dialect-1.2.5">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/nz/net/ultraq/thymeleaf/thymeleaf-layout-dialect/1.2.4/thymeleaf-layout-dialect-1.2.4.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/nz.net.ultraq.thymeleaf/thymeleaf-layout-dialect/1.2.5/ac736cdcaeadcc6c023ecdaa102636ec3343ba0b/thymeleaf-layout-dialect-1.2.5.jar!/" />
       </CLASSES>
       <JAVADOC />
-      <SOURCES />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/nz.net.ultraq.thymeleaf/thymeleaf-layout-dialect/1.2.5/b23527c3cbe8197f522c884b73ad9870363d714/thymeleaf-layout-dialect-1.2.5-sources.jar!/" />
+      </SOURCES>
     </library>
     <library name="Gradle: thymeleaf-spring4-2.1.3.RELEASE">
       <CLASSES>
