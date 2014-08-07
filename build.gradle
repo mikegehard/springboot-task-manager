@@ -8,10 +8,17 @@ buildscript {
     }
 }
 
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.0'
+}
+
 apply plugin: 'java'
 apply plugin: 'idea'
 apply plugin: 'spring-boot'
 apply plugin: 'war'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 jar {
     baseName = 'taskManager'
@@ -30,8 +37,4 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-jetty")
 //    compile("org.springframework.boot:spring-boot-starter-actuator")
     testCompile("junit:junit")
-}
-
-task wrapper(type: Wrapper) {
-    gradleVersion = '2.0'
 }
