@@ -1,7 +1,7 @@
 yieldUnescaped '<!DOCTYPE html>'
 html {
     head {
-        title('Spring Boot Task Manager12345')
+        title('Spring Boot Task Manager')
     }
     body {
         header("Header")
