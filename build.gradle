@@ -22,20 +22,31 @@ targetCompatibility = 1.8
 
 jar {
     baseName = 'taskManager'
-    version =  '0.0.1-SNAPSHOT'
+    version = '0.0.1-SNAPSHOT'
 }
 
 repositories {
     mavenLocal()
     mavenCentral()
+    // The various Spring repos in case you need them
+    maven { url "http://repo.spring.io/milestone" }
+    maven { url "http://repo.spring.io/libs-release" }
+    maven { url "http://repo.spring.io/libs-snapshot" }
 }
 
 dependencies {
-    compile("org.springframework.boot:spring-boot-starter-groovy-templates") {
+    compile("org.springframework.boot:spring-boot-starter-groovy-templates:1.2.0.BUILD-SNAPSHOT") {
         exclude module: "spring-boot-starter-tomcat"
     }
-    compile ("org.springframework:spring-context:4.1.1.RELEASE")
     compile("org.springframework.boot:spring-boot-starter-jetty")
-//    compile("org.springframework.boot:spring-boot-starter-actuator")
+    // Use the latest spring framework
+    compile("org.springframework:spring-web:4.1.2.BUILD-SNAPSHOT")
+    // We will add monitoring in later
+    // compile("org.springframework.boot:spring-boot-starter-actuator")
+
     testCompile("junit:junit")
+    testCompile ("org.springframework:spring-test:4.1.2.BUILD-SNAPSHOT")
+    testCompile ("org.springframework:spring-test-htmlunit:1.0.0.BUILD-SNAPSHOT")
+    // Maybe add this in later
+    // testCompile "org.seleniumhq.selenium:selenium-htmlunit-driver:2.42.2"
 }
