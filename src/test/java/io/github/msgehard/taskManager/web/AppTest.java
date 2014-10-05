@@ -1,7 +1,8 @@
 package io.github.msgehard.taskManager.web;
 
-import com.gargoylesoftware.htmlunit.Page;
 import com.gargoylesoftware.htmlunit.WebClient;
+import com.gargoylesoftware.htmlunit.html.HtmlElement;
+import com.gargoylesoftware.htmlunit.html.HtmlPage;
 import io.github.msgehard.taskManager.App;
 import org.junit.After;
 import org.junit.Before;
@@ -22,7 +23,7 @@ import static org.junit.Assert.assertEquals;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = {App.class})
-@WebAppConfiguration("")
+@WebAppConfiguration
 public class AppTest {
     @Autowired
     private WebApplicationContext context;
@@ -45,7 +46,8 @@ public class AppTest {
 
     @Test
     public void homePage() throws IOException {
-        Page homePage = webClient.getPage("http://localhost");
-        assertEquals("Home", homePage.getWebResponse().getContentAsString());
+        HtmlPage homePage = webClient.getPage("http://localhost");
+        HtmlElement main = homePage.getBody().getHtmlElementsByTagName("main").get(0);
+        assertEquals("Welcome to the task manager!", main.getTextContent());
     }
 }
